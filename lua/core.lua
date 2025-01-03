@@ -31,7 +31,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 -- Searching
-vim.opt.hlsearch = false -- Set highlight on search
+vim.opt.hlsearch = true -- Set highlight on search
 vim.opt.ignorecase = true -- Case insensitive serach UNLESS \C or capital letters in search string
 vim.opt.smartcase = true
 
