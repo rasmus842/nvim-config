@@ -18,8 +18,8 @@ require("lazy").setup({
 	require("color"),
 	require("plugins.lualine"), -- Status line
 	require("plugins.telescope"), -- Fuzzy finder
-	require("plugins.conform"), -- Autoformat
-	require("plugins.nvim-cmp"), -- Autocomplete
+	require("plugins.autoformatting"), -- Autoformat
+	require("plugins.autocompletion"), -- Autocomplete
 	require("plugins.lsp"), -- LSP for language suppor    -- Other possibilites:
 	-- 'bufferline' <- opened buffers are shown in line at the top, like in most programs
 })
