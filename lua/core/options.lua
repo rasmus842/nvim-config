@@ -5,7 +5,7 @@ vim.opt.number = true -- Mark line numbers
 vim.opt.relativenumber = true -- Relative line numbers
 vim.opt.cursorline = true -- Highlight cursor's line number
 vim.opt.numberwidth = 4 -- Set number column width
-vim.opt.signcolumn = 'yes' -- Keep signcolumn on by default (default: 'auto')
+vim.opt.signcolumn = "yes" -- Keep signcolumn on by default (default: 'auto')
 
 -- Line wrapping and spacing
 vim.opt.wrap = false -- Diplay lines as one long line
@@ -26,7 +26,7 @@ vim.opt.expandtab = true -- Convert tabs to spaces
 vim.opt.showtabline = 2 -- Always show tabs (default: 1)
 
 -- Splitting
-vim.opt.mouse = 'a' -- Enable mouse mode. Can use mouse to resize splits
+vim.opt.mouse = "a" -- Enable mouse mode. Can use mouse to resize splits
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
@@ -48,7 +48,7 @@ vim.opt.swapfile = true -- Create swapfile (default: true)
 vim.opt.backup = false -- Creates backup file (defualt: false)
 vim.opt.writebackup = false -- Can files be concurrently edited by different program (default: true)
 
-vim.opt.fileencoding = 'utf-8' -- Default: 'utf-8'
+vim.opt.fileencoding = "utf-8" -- Default: 'utf-8'
 
 vim.opt.cmdheight = 1 -- More space for Command line for displaying messages (default: 1)
 
@@ -57,8 +57,8 @@ vim.opt.updatetime = 250 -- Update time (default: 4000)
 vim.opt.timeoutlen = 300 -- Time to wait for mapped sequence to complete (default: 1000)
 
 -- Sets how neovim will display certain whitespace characters in the editor.
-vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+-- Cannot use these if indent-blanklines is also used
+-- vim.opt.list = true
+-- vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
-vim.opt.inccommand = 'split' -- Preview substitutions live, as you type
-
+vim.opt.inccommand = "split" -- Preview substitutions live, as you type
